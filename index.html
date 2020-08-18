@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Strawberry Fields</title>
+  <link rel="icon" type="image/png" href="PICS/strawberry.png" />
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <header>
+		<h1> Strawberry Fields Forever </h1>
+		<nav>
+			<a href="index.html" class = "active">Home</a>
+			<a href="aboutus.html">About Us</a>
+			<a href="recipes.html">Recipes</a>
+		</nav>
+</header>
+<main>
+  <section>
+    <h2>Welcome To Strawberry Fields!</h2>
+	<p  id="intro"> When was the last time you picked your own fruits or vegetables of any sort? Not recently of course! Now a days we are so caught up in the city life, we forget the simple pleasures! It's a great activity for the family! Bring the kids, get them dressed up and have a fun photoshoot while snacking on some berries! It is important for them to see where and how the things they see at the grocery store are produced and harvested! Visit us for some of the finest handpicked, best tasting and locally grown strawberries in Carnation, Washington!
+	   We are open year round, with farm tours or self guided visits! We also host the Harvest Festival in October in collaboration with some of our neighboring farms! Be sure to follow us on instagram and facebook to stay updated!
+	</p>
+  </section>
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+	<!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+	  <img id="pics" src="PICS/berryboy.jpg" alt="boy picking strawberries" style="width:62%">
+	</div>
+  
+	<div class="mySlides fade">
+	  <img id="pics" src="PICS/berrygirl.jpg" alt="girl picking strawberries" style="width:62%">
+	</div>
+  
+	<div class="mySlides fade">
+	  <img id="pics" src="PICS/basket.jpg" alt="girl holding basket" style="width:62%">
+	</div>
+  </div>
+  <section id="block">
+	<h2>Strawberry Facts!</h2>
+	<p>Want random strawberry knowledge?</p>
+	<button type="button" onclick="openMe()">Yes Please!</button>
+	<button type="button" onclick="closeMe()">No, Thank You!</button>
+    <p id="facts">
+      Strawberry, (genus Fragaria) are heart shaped and sweet. They are usually included in many desserts, fresh, cooked and also preserved! They are one of the most popular fruits in the world! Currently they are grown all over the world, however, China, the U.S. and Mexico are in the lead. The U.S. has a variety of climates, which means strawberries can be harvested year round! There are three main differences in the classes of strawberries. June Bearing, Everbearing, and Day-Neutral. June bearing plants have one monster crop in the year, usually in June. Everbearing plants have a modest-sized crop. They will begin production as soon as there are 12 hours of day light and bear until the end of Summer. Day-Neutral have three peak bearing times, usually around June, July, and August. It allows for a nice spaced out harvest. Below are some of the most popular types of strawberry plants and a little more about them! Strawberry Fields grows Quinalt and Northeastern! We've got strawberries YEAR-ROUND!
+      	<table id="table">
+				<tr><th>Type</th>
+					<th>Bearing Time</th>
+					<th>Identification</th></tr>
+				<tr>
+					<td>Albion</td>
+					<td>Day Neutral</td>
+					<td>Large, Firm, VERY Resistant to Disease</td>
+				</tr>
+				<tr>
+					<td>Tillamook</td>
+					<td>Early</td>
+					<td>Ripe, Squishy, Resistant to SOME Diseases</td>
+				</tr>
+				<tr>
+					<td>Northeastern</td>
+					<td>Early</td>
+					<td>Large, High Yield.</td>
+				</tr>
+				<tr>
+					<td>Elsanta</td>
+					<td>Day Neutral</td>
+					<td>Large, Firm, Sweet, NOT Resistant to Disease</td>
+				</tr>
+				<tr>
+					<td>Jewel</td>
+					<td>Everbearing</td>
+					<td>Big, Firm, Resistant To Some Disease</td>
+				</tr>
+				<tr>
+					<td>Earliglow</td>
+					<td>Early</td>
+					<td>Average, Moderately Resistant to Diseases</td>
+				</tr>
+				<tr>
+					<td>Quinalt</td>
+					<td>Everbearing</td>
+					<td>Large, Soft, Sweet, Moderately Resistant to Disease</td>
+				</tr>
+			</table>
+		</p>
+  </section>
+</main>
+  <!-- Scripts -->
+  <script>
+function closeMe(){
+      // Find the element
+   		x=document.getElementById("facts");
+		y=document.getElementById("table");
+       //Option 1: Change the style attribute directly
+   		x.style.display="none";
+		y.style.display="none";
+  
+	}
+
+function openMe(){
+      // Find the element
+   		x=document.getElementById("facts");
+		y=document.getElementById("table");
+      //Option 1: Change the style attribute directly
+   		 x.style.display="block";
+		y.style.display="block";
+    
+	}
+// Slideshow Stuff //
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 4.5 seconds
+}
+</script>
+</body>
+<footer class="footer">
+ <p class=footer> Copyright &copy; 2020 Strawberry Fields
+ </p>
+</footer>
+</html>
