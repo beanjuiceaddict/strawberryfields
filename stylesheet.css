@@ -175,4 +175,5 @@ button{
 .recipes img{
 width: 15vw;
 margin:2vw;
+	text-decoration:none;
 }
