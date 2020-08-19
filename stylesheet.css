@@ -112,9 +112,9 @@ button{
   width:55%;
 }
 .mySlides{
-  position: absolute;
-    top:-40vh;
-    right: -63vw;
+  position: relative;
+    top:-20vh;
+    right: -60vw;
 }
 }
     * {box-sizing:border-box}
