@@ -112,14 +112,11 @@ button{
 #intro{
   width:55%;
 }
-#block{
-  position: relative;
-  top: -50vh;
-}
 .mySlides{
   position: relative;
-    top:-33vh;
+    top:-25vh;
     right: -63vw;
+}
 }
     * {box-sizing:border-box}
 
