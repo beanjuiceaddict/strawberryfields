@@ -50,7 +50,6 @@ nav a{
 body {
   font-family: Verdana, Geneva, sans-serif;
   border:double 3px #940019;
-  font-weight: 10;
 }
 section{
   padding-left: 2%;
@@ -113,7 +112,7 @@ button{
   width:55%;
 }
 .mySlides{
-  position: relative;
+  position: absolute;
     top:-40vh;
     right: -63vw;
 }
