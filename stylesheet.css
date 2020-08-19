@@ -115,15 +115,14 @@ button{
 #pics{
   margin-left: 5%;
 }
-@media screen and (min-width: 600px)
+  @media screen and (min-width: 600px)
   {
     #pics{
     float: right;
+    margin-top: -250px;
     margin-right: 5%;
     }
   }
-
-
 /* Slideshow container */
     .slideshow-container {
       max-width: 100vw;
