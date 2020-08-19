@@ -94,10 +94,10 @@ td{
   display:none;
 }
 .closed{
-		display: none;
+	display: none;
 }
 .open{
-  display: block;
+	display: block;
 }
 
 button{
@@ -114,7 +114,7 @@ button{
 }
 .mySlides{
   position: relative;
-    top:-40vh;
+    top:-50vh;
     right: -60vw;
 }
     * {box-sizing:border-box}
