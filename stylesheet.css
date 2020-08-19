@@ -112,9 +112,11 @@ button{
 #intro{
   width:55%;
 }
-.mySlides{
-  margin-left: 6%;
-    * {box-sizing:border-box}
+#pics{
+ float: right;
+ margin-top: -20%;
+ margin-right: 5%;
+}
 
 /* Slideshow container */
     .slideshow-container {
