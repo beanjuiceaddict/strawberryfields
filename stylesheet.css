@@ -127,7 +127,7 @@ button{
 
 /* Slideshow container */
     .slideshow-container {
-      max-width: 1000vw;
+      max-width: 100vw;
       position: relative;
       margin: auto;
     }
