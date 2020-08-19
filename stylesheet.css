@@ -119,7 +119,7 @@ button{
   {
     #pics{
     float: right;
-    margin-top: -20%;
+    margin-top: -25%;
     margin-right: 5%;
     }
   }
@@ -128,8 +128,7 @@ button{
 /* Slideshow container */
     .slideshow-container {
       max-width: 100vw;
-      position: relative;
-      margin: auto;
+  
     }
     
 /* Hide the images by default */
