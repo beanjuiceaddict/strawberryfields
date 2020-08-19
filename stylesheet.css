@@ -112,11 +112,6 @@ button{
 #intro{
   width:55%;
 }
-.mySlides{
-  position: relative;
-    top:-70px;
-    right: -60vw;
-}
     * {box-sizing:border-box}
 
 /* Slideshow container */
