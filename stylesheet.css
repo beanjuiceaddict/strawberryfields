@@ -112,6 +112,8 @@ button{
 #intro{
   width:55%;
 }
+.mySlides{
+  margin-left: -2%;
     * {box-sizing:border-box}
 
 /* Slideshow container */
